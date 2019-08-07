@@ -14,12 +14,9 @@ end
 #  puts "Welcome, #{name}, your are number #{array.length} in line"
 #  end
 
-def take_a_number(array, num)
-  count = 0
-  while count >= 0
-  array.push(num)
-  puts "Welcome, you are number #{array.length} in line"
-  count += 1
+global count = 0
+def take_a_number(array)
+  
 end
 
 def now_serving(array)
