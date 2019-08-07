@@ -9,15 +9,21 @@ def line(array)
   end
 end
 
-def take_a_number(array, name)
-  array.push(name)
-  puts "Welcome, #{name}, your are number #{array.length} in line"
+#  def take_a_number(array, name)
+#  array.push(name)
+#  puts "Welcome, #{name}, your are number #{array.length} in line"
+#  end
+
+def take_a_number(num)
+  count = 0
+  while count > 0
 end
 
 def now_serving(array)
   if array.length == 0
     puts "There is nobody waiting to be served!"
+  elsif array.length != 0
+    puts "Currently serving #{array.shift}"
   end
-  puts "Currently serving #{array.shift}"
 end
 
